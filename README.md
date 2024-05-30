@@ -35,7 +35,7 @@ Follow these steps to set up the project on your local machine:
 2. **Create and Activate Virtual Environment**
    ```bash
    python -m venv env
-  `env\Scripts\activate`  
+   Source `env\Scripts\activate`  
 3.  **Install Dependencies**
   ```bash
   `pip install -r requirements.txt`
@@ -43,3 +43,34 @@ Follow these steps to set up the project on your local machine:
 4. **Run the Application**
   ```bash
    streamlit run app.py
+
+
+Usage
+Launch the application using the streamlit run app.py command.
+Interact with the application through the Streamlit interface.
+Input your preferences and get movie recommendations.
+
+Project Structure
+
+movie-recommendation-system/
+│
+├── data/
+│   ├── movies.csv
+│   ├── ratings.csv
+│   └── ...
+│
+├── src/
+│   ├── feature_engineering.py
+│   ├── text_vectorization.py
+│   ├── recommendation_engine.py
+│   └── ...
+│
+├── app.py
+├── requirements.txt
+└── README.md
+
+data/: Contains the dataset files.
+src/: Contains the source code for feature engineering, text vectorization, and recommendation engine.
+app.py: The main application script for Streamlit.
+requirements.txt: Lists the dependencies required for the project.
+README.md: The readme file.

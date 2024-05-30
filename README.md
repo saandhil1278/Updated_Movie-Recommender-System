@@ -32,3 +32,14 @@ Follow these steps to set up the project on your local machine:
    ```bash
    git clone https://github.com/yourusername/movie-recommendation-system.git
    cd movie-recommendation-system
+2. **Create and Activate Virtual Environment**
+   ```bash
+   python -m venv env
+  `env\Scripts\activate`  
+3.  **Install Dependencies**
+  ```bash
+  `pip install -r requirements.txt`
+
+4. **Run the Application**
+  ```bash
+   streamlit run app.py

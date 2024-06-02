@@ -6,11 +6,7 @@ This project involves the development of a Movie Recommendation System utilizing
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Introduction
 
 The Movie Recommendation System is designed to provide personalized movie recommendations based on user preferences. By applying comprehensive feature engineering techniques, the system ensures high accuracy and relevance in the recommendations.
